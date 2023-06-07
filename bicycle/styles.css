@@ -1,0 +1,231 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  margin: auto;
+	font-size: 15px ;
+	line-height: 1.618 ;
+}
+
+.header {
+  list-style: none;
+  display: flex;
+}
+
+.header_span {
+  padding-right: 250px;
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: -15px;
+  margin-bottom: -25px;
+  }
+
+.logo {
+  width: 120px;
+  object-fit: fill;
+  padding-left: 250px;
+  padding-top: 5px;
+  }
+
+li {
+  font-size: 14px;
+  padding: 20px 8px 20px;
+}
+
+.section {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  margin: auto;
+}
+
+.mainvisual {
+  width: 100%;
+  height: 550px;
+  }
+
+.img {
+  margin-right: calc(50% - 50vw);
+  margin-left: calc(50% - 50vw);
+  }
+
+.about, .bicycle {
+  text-align: center;
+  font-size: 32px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 3px; 
+  padding-top: 70px; 
+  display: inline-block;
+  }
+
+.about_img
+ {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 20px;
+ }
+
+.text {
+  width: 30%;
+  font-size: 14px;
+}
+
+.about_eria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bicycle_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul_section {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+}
+
+.li_section {
+  flex-direction: row;
+  text-align: center;
+}
+
+.bicycle_img1, .bicycle_img2, .bicycle_img3
+ {
+  width: 230px;
+  height: 150px;
+ }
+
+footer {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 8px;
+  color: #666666;
+ }
+
+a:visited {
+  color: #000000;
+ }
+
+a:hover {
+  color : #000000;
+}
+
+a:active {
+  color : #000000;
+}
+
+a {
+  text-decoration: none;
+  color : #000000;
+}
+
+@media screen and (max-width:639px) {
+  header {
+    margin-top: -15px;
+    margin-bottom: -25px;
+  }
+
+  .header {
+    margin: 0;
+    padding-top: 23px;
+    padding-left: 5px;
+  }
+  
+  .header_span {
+    padding-right: 20px;
+  }
+
+  .logo {
+    padding: 20%;
+  }
+
+  .text {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  h1 {
+  margin-top: 10px;
+  margin-bottom: 0; 
+}
+
+  h4 {
+    text-align: center;
+  }
+
+  .about_eria {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ul_section {
+    display: flex;
+    flex-direction:column;
+  }
+
+}
+     
+@media only screen and (min-width:640px) and (max-width:1023px) {
+  header {
+    margin-top: -25px;
+    margin-bottom: -40px;
+  }
+
+  .header {
+    margin: 0;
+    padding-top: 27px;
+    padding-left: 5px;
+  }
+ 
+  .header_span {
+    padding-right: 20px;
+  }
+
+  .logo {
+    padding: 20%;
+  }
+
+  .ul_section {
+    display: flex;
+    flex-direction:column;
+  }
+}
+
+.text {
+  width: 40%;
+  font-size: 14px;
+}
+    
+@media screen and (min-width:1024px) {
+
+  .text {
+    width: 30%;
+    font-size: 14px;
+  }
+
+}
